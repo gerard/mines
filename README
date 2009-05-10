@@ -1,0 +1,20 @@
+Se adjuntan unicamente las fuentes del programa. Para compilar los comandos son los siguientes:
+$ gcc mines-version.c -o ejecutable -lncurses
+donde debes poner la version adecuada de las fuentes (debes poner el mismo nombre que el fichero .c que te has bajado)
+y para ejecutarlo
+$ ./mines
+Si en la compilacion te sale muchos errores, asegurate que tienes las ncurses-dev instaladas
+Este programa no funciona bajo windows (si quieres migrarlo, eres libre de hacerlo)
+
+Los controles son:
+q: Pisar una casilla
+w: Marcar una casilla
+e: Pisar casillas a tu alrededor (si has marcado todas las bombas alrededor)
+x: Salir
+Obviamente las flechas te mueven por el mapa
+
+Truco 1: Para cambiar el tamano del terreno cambia el tamano del terminal, pero hazlo antes de arrancar el juego
+Truco 2: Cambia el define MINESPERCENT para cambiar el porcentaje de bombas en el terreno
+
+Para cualquier comentario, enviame un mail a raharu@gmail.com
+Un Saludo
